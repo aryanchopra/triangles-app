@@ -1,0 +1,281 @@
+body,
+html,
+#root {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  background: url("https://images.unsplash.com/photo-1538947117537-48239ec91f18?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.App button {
+  cursor: pointer;
+}
+
+.App .centercontainer {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.App .centercontainer .heading {
+  font-weight: 700;
+  font-size: 36px;
+  text-shadow: 2px 2px 2px cyan;
+}
+
+.App .centercontainer .heading2 {
+  font-weight: 600;
+  font-size: 24px;
+  text-shadow: 2px 2px 2px cyan;
+  margin-top: 20px;
+}
+
+.App .centercontainer .blockrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.App .centercontainer .blockrow .block {
+  display: inline;
+  margin: 10px 10px 0px 0px;
+  height: 120px;
+  width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: rgba(161, 230, 230, 0.6);
+}
+
+.App .centercontainer .blockrow .block:hover {
+  background-color: rgba(0, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.App .centercontainer .go-back-btn {
+  background-color: rgba(111, 188, 233, 0.8);
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.App .centercontainer .go-back-btn:hover {
+  background-color: #6fbce9;
+}
+
+.App .checkanglecontainer .angleinput {
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+  margin-right: 15px;
+  border: 2px solid cyan;
+  background-color: rgba(0, 255, 255, 0.6);
+}
+
+.App .checkanglecontainer .checktrianglebtn {
+  padding: 10px 30px;
+  margin-top: 20px;
+  background-color: rgba(17, 218, 218, 0.8);
+}
+
+.App .checkanglecontainer .checktrianglebtn:hover {
+  background-color: #11dada;
+}
+
+.App .checkanglecontainer .output {
+  margin-top: 10px;
+}
+
+.App .hypotenusecontainer input,
+.App .hypotenusecontainer label {
+  margin-right: 10px;
+}
+
+.App .hypotenusecontainer .triangleinputs,
+.App .hypotenusecontainer img,
+.App .hypotenusecontainer .heading2 {
+  margin-top: 20px;
+}
+
+.App .hypotenusecontainer input {
+  border: 2px solid cyan;
+  background-color: rgba(0, 255, 255, 0.6);
+  height: 30px;
+  font-size: 15px;
+}
+
+.App .hypotenusecontainer label {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.App .hypotenusecontainer h5 {
+  font-size: 20px;
+}
+
+.App .areacontainer .triangletypeform {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.App .areacontainer .triangletypeform input {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.App .areacontainer .triangletypeform label {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.App .areacontainer .triangleinputs {
+  margin-top: 20px;
+}
+
+.App .areacontainer .triangleinputs input {
+  border: 2px solid cyan;
+  background-color: rgba(0, 255, 255, 0.6);
+  height: 30px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.App .areacontainer .triangleinputs label {
+  font-weight: 500;
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.App .areacontainer h5 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.App .quizcontainer {
+  overflow-wrap: break-word;
+  width: 900px;
+}
+
+.App .quizcontainer .go-back-btn {
+  margin-bottom: 20px;
+}
+
+.App .quizcontainer .formcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.App .quizcontainer .formcontainer .questioncontainer {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.App .quizcontainer .formcontainer .questioncontainer .question {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 35px;
+}
+
+.App .quizcontainer .formcontainer .questioncontainer .inputcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: #dcf8ff;
+}
+
+.App .quizcontainer .formcontainer .questioncontainer .inputcontainer label {
+  margin-right: 20px;
+}
+
+.App .quizcontainer .formcontainer .submitquizbtn {
+  padding: 10px;
+  background-color: rgba(0, 255, 255, 0.6);
+  border: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.App .quizcontainer .formcontainer .submitquizbtn:hover {
+  background-color: rgba(0, 255, 255, 0.8);
+}
+
+.App .quizcontainer .score {
+  font-weight: 600;
+  font-size: 22px;
+  text-shadow: 3px 3px 3px rgba(0, 255, 255, 0.8);
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=App.css.map */
